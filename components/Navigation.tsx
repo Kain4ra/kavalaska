@@ -27,7 +27,7 @@ export const Navigation = ({navLinks}: navProps) => {
             key={link.href} 
             href={link.href}
             className={
-              `text-xl hover:underline ${isActive ? 'text-black pointer-events-none underline' : 'text-primary-color'}`
+              `text-xl hover:underline underline-offset-2 ${isActive ? 'text-black pointer-events-none underline' : 'text-primary-color'}`
             }
             >
               {link.title}

@@ -11,12 +11,12 @@ export const Footer = () => {
         <h2 className='text-2xl mb-3'>Адреса:</h2>
         <ul>
           <li>
-            <a className='underline duration-300 hover:text-blue-300' href="https://yandex.by/maps/org/kava_laska/221744089680/?ll=30.317350%2C53.880130&z=16.74" target='_blank'>
+            <a className='underline underline-offset-2 duration-300 hover:text-blue-300' href="https://yandex.by/maps/org/kava_laska/221744089680/?ll=30.317350%2C53.880130&z=16.74" target='_blank'>
               Могилев, ул. Гагарина 79
             </a>
           </li>
           <li>
-            <a className='underline duration-300 hover:text-blue-300' href="https://yandex.by/maps/org/kava_laska/182760430905/?indoorLevel=1&ll=30.363317%2C53.872205&z=16.74" target='_blank'>
+            <a className='underline underline-offset-2 duration-300 hover:text-blue-300' href="https://yandex.by/maps/org/kava_laska/182760430905/?indoorLevel=1&ll=30.363317%2C53.872205&z=16.74" target='_blank'>
               Могилев, ул. Мовчанского 6
             </a>
           </li>

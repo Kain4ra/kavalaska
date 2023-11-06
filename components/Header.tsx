@@ -10,7 +10,7 @@ const navItems = [
 
 export const Header = () => {
   return (
-    <header className='flex flex-col sm:flex-row items-center justify-between p-5 pl-20 pr-20'>
+    <header className='flex flex-col sm:flex-row items-center justify-between mb-10 p-5 pl-20 pr-20'>
       <Link href={'/'} className='flex items-center w-28 mb-10 sm:mb-0'>
         <img src="/kavalaska_logo.png" alt="Кава ласка" />
       </Link>

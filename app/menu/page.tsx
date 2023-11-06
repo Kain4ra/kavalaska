@@ -23,7 +23,7 @@ export default function MenuPage() {
       <Menu productsList={productsList} />
       <div>
         <h3 className="text-center text-xl font-bold mb-10">Дополнительно:</h3>
-        <table className="m-auto">
+        <table className="m-auto mb-10">
           <tbody>
             <tr>
               <td>

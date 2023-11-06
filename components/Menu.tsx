@@ -9,7 +9,7 @@ export const Menu = ({productsList}: Props) => {
   return (
     <table className='m-auto mb-10'>
       <thead>
-        <tr className='sm:text-2xl underline'>
+        <tr className='sm:text-2xl underline underline-offset-4'>
           <th className='w-1/2 p-4 sm:p-10'>Напиток</th>
           <th className='p-4 sm:p-10'>Стандартный</th>
           <th className='p-4 sm:p-10'>Двойной</th>
