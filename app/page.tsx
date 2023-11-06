@@ -25,15 +25,15 @@ export default function Home() {
         <div className='absolute hidden md:block 2xl:left-64 xl:left-64 lg:left-32 md:left-16 left-0'>
           <Arrow1 />
         </div>
-        <div className='absolute hidden md:block 2xl:right-64 xl:right-48 lg:right-16 right-0 -bottom-28 lg:bottom-0'>
+        <div className='absolute scale-50 md:scale-100 2xl:right-64 xl:right-48 lg:right-16 md:right-0 -bottom-28 lg:bottom-0'>
           <Arrow2 />
         </div>
       </div>
       <div className='relative mb-10'>
-        <div className='relative z-10 flex items-end justify-around md:justify-center'>
-          <img className='w-[150px] duration-300 hover:scale-95' src="/cup1.png" alt="cup" />
-          <img className='hidden md:inline w-[250px] duration-300 hover:scale-95' src="/cup2.png" alt="cup" />
-          <img className='w-[150px] duration-300 hover:scale-95' src="/cup3.png" alt="cup" />
+        <div className='relative z-10 flex items-end justify-center'>
+          <img className='w-[100px] md:w-[150px] duration-300 hover:scale-95' src="/cup1.png" alt="cup" />
+          <img className='w-[150px] md:w-[250px] duration-300 hover:scale-95' src="/cup2.png" alt="cup" />
+          <img className='w-[100px] md:w-[150px] duration-300 hover:scale-95' src="/cup3.png" alt="cup" />
         </div>
         <img className='absolute bottom-0 z-0 right-1/2 translate-x-1/2' src="/beans.png" alt="beans" />
       </div>
