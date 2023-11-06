@@ -17,7 +17,7 @@ export const Navigation = ({navLinks}: navProps) => {
   const pathname = usePathname();
 
   return (
-    <nav className='flex w-2/3 justify-around'>
+    <nav className='flex w-full sm:w-2/3 justify-around'>
       {
         navLinks.map((link) => {
           const isActive = pathname === link.href;

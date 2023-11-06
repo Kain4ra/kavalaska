@@ -19,7 +19,7 @@ export default function MenuPage() {
   ]
 
   return (
-    <main className="p-10">
+    <main className="p-4 sm:p-10">
       <Menu productsList={productsList} />
       <div>
         <h3 className="text-center text-xl font-bold mb-10">Дополнительно:</h3>

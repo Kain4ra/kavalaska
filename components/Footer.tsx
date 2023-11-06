@@ -27,7 +27,7 @@ export const Footer = () => {
       </div>
       <div className='text-center'>
         <h2 className='text-2xl mb-3'>Контакты:</h2>
-        <ul className='flex gap-4 justify-center items-center'>
+        <ul className='flex sm:gap-4 justify-center items-center'>
           <li>
             <a className='underline duration-300 hover:text-blue-300' href="tel:+375295473916">
               <Phone />
